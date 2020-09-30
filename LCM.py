@@ -6,6 +6,7 @@ def compute_lcm(x, y):
    if x > y:
        greater = x
    else:
+      greater = y
   
 
    while(True):
