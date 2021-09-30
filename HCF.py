@@ -17,3 +17,14 @@ num1 = 54
 num2 = 24
 
 print("The H.C.F. is", compute_hcf(num1, num2))
+
+# hcf by recursion
+def hcf(a,b):
+    if b==0:
+        return a
+    else:
+        return hcf(b, a%b) # this is recursion as hcf() calls itself
+
+# Reading numbers from user
+first = int(input('Enter first number: '))
+second = int(input('Enter second number: '))
